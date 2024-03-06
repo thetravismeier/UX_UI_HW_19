@@ -1,0 +1,188 @@
+body {
+  margin: 0;
+}
+
+header {
+  background-color: #373738;
+  padding: 15px;
+}
+header ul {
+  float: right;
+  color: white;
+}
+header li {
+  display: inline-block;
+  padding: 0px 5px;
+}
+header p {
+  display: inline-block;
+}
+.heroImg {
+  background-color: #EBEBEB;
+  padding: 100px 15px;
+}
+
+button {
+  padding: 15px;
+  background-color: #373738;
+  color: white;
+  font-size: 15px;
+  border-radius: 4px;
+}
+
+.content {
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 50px;
+  background-color: #FFFFFF;
+  text-align: center;
+}
+
+#myskillsheader .header,
+#myworksheader .header {
+  background-color: black;
+  color: white;
+}
+
+#myskillsheader .header h1,
+#myworksheader .header h1 {
+  background-color: black;
+  text-align: center;
+  font-weight: bold;
+}
+
+#myskills {
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  background-color: black;
+}
+
+#myskills .userresearch,
+#myskills .designquestions,
+#myskills .communication {
+  justify-content: space-around;
+  background-color: black;
+  text-align: center;
+  color: white;
+  width: 600px;
+}
+
+#myskills .userresearch h2,
+#myskills .designquestions h2,
+#myskills .communication h2 {
+}
+
+#myskills .userresearch p,
+#myskills .designquestions p,
+#myskills .communication p {
+}
+
+#mywork .spaceforce_background,
+#mywork .mnvalleyrefuge_background,
+#mywork .visaseeker_background {
+  background-color: white;
+  color: black;
+  border: 5px solid black;
+}
+
+#mywork .visaseeker_background {
+  background-image: url(../images/image\ 8.png);
+  background-color: white;
+  background-repeat: no-repeat;
+  background-position: center right;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  height: auto;
+  
+}
+
+#mywork .spaceforce_background {
+  background-image: url(../images/image\ 9.png);
+  background-color: white;
+  background-repeat: no-repeat;
+  background-position: center right;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  height: auto;
+}
+
+#mywork .mnvalleyrefuge_background {
+  background-image: url(../images/image\ 10.png);
+  background-color: white;
+  background-repeat: no-repeat;
+  background-position: right;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  height: auto;
+}
+
+#mywork .spaceforce_background h1,
+#mywork .mnvalleyrefuge_background h1,
+#mywork .visaseeker_background h1 {
+  position: relative;
+  font-size: 40px;
+  bottom: 100px;
+
+
+}
+
+#mywork .spaceforce_background p,
+#mywork .mnvalleyrefuge_background p,
+#mywork .visaseeker_background p {
+  position: relative;
+  font-size: 25px;
+  font-weight: 200;
+  width: 30%;
+
+  
+
+}
+
+
+#mywork button {
+  font-size: 30px;
+  position: relative;
+  bottom: -100px;
+}
+
+footer {
+  background-color: #373738;
+  padding: 5px;
+  color: white;
+}
+footer ul {
+  list-style: none;
+  padding-left: 5px;
+}
+footer li {
+  display: inline-block;
+  padding: 0px 7px;
+}
+
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+    flex-direction: column;
+    grid-template-columns: 1fr 1fr 1fr;
+
+  }
+}
+
+
+#myBtn {
+
+  position: fixed; /* Fixed/sticky position */
+  bottom: 30px; /* Place the button at the bottom of the page */
+  right: 60px; /* Place the button 30px from the right */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  background-color: transparent;
+  outline: none;
+  border: none;
+}
+
+#myBtn:hover {
+  background-color: gray /* Add a dark-grey background on hover */
+  border: none;
+}
